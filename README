@@ -1,0 +1,56 @@
+Roblox Application Development Interface
+
+Team Members:
++ NightName
++ TheSquirrel
+
+Introduction
+Each department will have a sub-directory here. At present we have two departments, Framework Development and App Development. The basic framework is being worked out by NightName and TheSquirrel at present, once this is complete official developers can start creating applications to be included in the main release. The idea is that if application developers want any new methods or properties to the framework to make developing easier, it can be quickly added to the project by the framework devs.
+
+
+TODO:
+
+Framework Questions:
++ Protecting source?
++ - TheSquirrel: I think the framework should be open source and so should most official applications but it is not a requirement. For those who do not want their source released, we can GZip it, minify it and then compile it to get something pretty unreadable.
++ How are applications loaded by the user?
++ Do developers send in models?
++ What actions do we have against viruses?
++ Networking? Shared folders? Server folder for sharing documents?
++ File system?
++ 3rd party applications? How will these be included into the system? iOS App Store perhaps? Search, top lists etc?
++ How are applications going to be kept separate from the rest of the system?
++ Should 3rd party applications be kept separate from accessing the file tree?
++ How do applications share data? How do we keep shared data organised and protected?
+
+
+Framework:
++ Basic {
++ + Positioning.
++ + Resizing.
++ + Events.
++ }
++ Applications {
++ + Isolating applications in case of crashes do they do not affect other applications or the navigation.
++ + Loading applications from some sort of global repository.
++ }
++ Navigation {
++ + Dock for minimized applications.
++ + Close, Minimize, Resize buttons. 
++ + Dragging windows.
++ }
+
+Applications:
++ Notepad.
++ Rich Text Format Editor.
++ Web Browser.
++ Chat clients.
++ Email.
++ Generic syntax highlighter (Think Notepad ++)
++ Lua IDE.
++ 2D Games {
++ + Fall Down.
++ + Minesweeper.
++ + Space Invaders.
++ + More arcade games.
++ }
