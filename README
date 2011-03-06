@@ -3,6 +3,7 @@ Roblox Application Development Interface
 Team Members:
 + NightName
 + TheSquirrel
++ LPGhatguy
 
 Introduction
 Each department will have a sub-directory here. At present we have two departments, Framework Development and App Development. The basic framework is being worked out by NightName and TheSquirrel at present, once this is complete official developers can start creating applications to be included in the main release. The idea is that if application developers want any new methods or properties to the framework to make developing easier, it can be quickly added to the project by the framework devs.
