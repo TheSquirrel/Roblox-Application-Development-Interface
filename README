@@ -17,6 +17,7 @@ Framework Questions:
 + How are applications loaded by the user?
 + Do developers send in models?
 + What actions do we have against viruses?
++ - I don't think we will have any problems with viruses, as long as we have truster developers.
 + Networking? Shared folders? Server folder for sharing documents?
 + File system?
 + - LPGhatguy: I say we create one out of tables of sorts. From there, we can have file attributes, and save files in an XML-style form, if we can't save tables, come DP.
