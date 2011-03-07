@@ -19,10 +19,19 @@ Framework Questions:
 + What actions do we have against viruses?
 + Networking? Shared folders? Server folder for sharing documents?
 + File system?
++ - LPGhatguy: I say we create one out of tables of sorts. From there, we can have file attributes, and save files in an XML-style form, if we can't save tables, come DP.
 + 3rd party applications? How will these be included into the system? iOS App Store perhaps? Search, top lists etc?
++ - LPGhatguy: Well, we could have a list of 'trusted developers' whom all have licenses we could revoke. From there, we would have an app-store type application.
 + How are applications going to be kept separate from the rest of the system?
++ - LPGhatguy: Local environments for 'RAM data', of course, with an access to 'global data', so, in a sense, we won't.
 + Should 3rd party applications be kept separate from accessing the file tree?
++ - LPGhatguy: They don't have to be, as long as they are trusted applications. We'll have to generate an access key or something like that.
 + How do applications share data? How do we keep shared data organised and protected?
++ - LPGhatguy: Through a global data-type thing. It would simply be a table, and keeping the data shared and protected would be up to the application. Though for the filesystem, having a directory only that application could access would be nice, except for 1st party applications.
+
+
+LPGhatguy:
+Instead of basing the framework on graphics and such, why don't we create the underlying application framework first? I did the same sort of thing with Rash, and it worked great, had the code not been so messy and such. When we do create graphics, mesh them in with the underlying framework.
 
 
 Framework:
